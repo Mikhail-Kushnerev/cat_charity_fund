@@ -10,7 +10,6 @@ from app.schemas.charity_project import CharityProjectUpdate
 
 NOT_FOUND: str = "Проект не найден!"
 PROJECT_EXISTS: str = "Проект с таким именем уже существует!"
-
 PERMISSIONS: str = "Закрытый проект нельзя редактировать!"
 
 
