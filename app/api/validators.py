@@ -13,6 +13,7 @@ PROJECT_EXISTS: str = "Проект с таким именем уже сущес
 
 PERMISSIONS: str = "Закрытый проект нельзя редактировать!"
 
+
 async def check_name_duplicate(
         project_name: str,
         session: AsyncSession
